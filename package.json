@@ -1,0 +1,23 @@
+{
+  "name": "vanilla-react-starter-with-extras",
+  "version": "1.0.0",
+  "description": "Alternative to the Create ReactApp template. By going Vanilla we are able to change babel config (.babelrc) allowing for implemnting things like prismjs. This template has the following 'extras' built in: prismjs, antd-mobile, formik, optional-chaining, sweet-alert.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "antd-mobile": "2.2.3",
+    "formik": "1.1.1",
+    "react": "16.4.2",
+    "react-dom": "16.4.2",
+    "react-scripts": "1.1.4",
+    "react-hot-loader": "4.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}

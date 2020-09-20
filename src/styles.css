@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+}
+
+.demo-list {
+  border: 1px solid palevioletred;
+  display: flex;
+  justify-content: column;
+  width: 50vw;
+  padding: 0.15rem;
+  margin-bottom: 0.25rem;
+}
+.my-submit-button {
+  width: 100%;
+  background-color: white;
+  outline: 0 none;
+  padding: 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  height: 50px;
+  line-height: 18px;
+  font-size: 18px;
+}
+.my-submit-button:active {
+  background-color: #ddd;
+}
